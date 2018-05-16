@@ -153,6 +153,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Fridge.cpp" />
+    <ClCompile Include="Home_appliances.cpp" />
+    <ClCompile Include="Hoover.cpp" />
+    <ClCompile Include="Kettle.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
