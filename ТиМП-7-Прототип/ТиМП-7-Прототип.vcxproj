@@ -146,6 +146,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Fridge.h" />
+    <ClInclude Include="Home_appliances.h" />
+    <ClInclude Include="Hoover.h" />
+    <ClInclude Include="Kettle.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Fridge.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
