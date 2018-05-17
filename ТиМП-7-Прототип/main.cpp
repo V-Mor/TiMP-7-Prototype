@@ -6,7 +6,10 @@
 
 int main()
 {
-	/*Pool p;
-	p.getAppliance(fridge, new Fri)*/
+	setlocale(0, "");
+	Pool p;
+	p.addAppliance(fridge, new Fridge);
+	Home_appliances *fr = p.getAppliance(fridge);
+	fr->use();
 	return 0;
 }

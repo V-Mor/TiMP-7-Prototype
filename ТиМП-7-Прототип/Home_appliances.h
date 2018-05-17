@@ -8,4 +8,5 @@ class Home_appliances
 {
 public:
 	virtual Home_appliances * clone() = 0;
+	virtual void use() = 0;
 };
