@@ -7,7 +7,7 @@ Home_appliances * Fridge::clone()
 
 void Fridge::use()
 {
-	////
+	cout << "Заморозил еду\n";
 }
 
 

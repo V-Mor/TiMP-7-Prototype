@@ -150,12 +150,14 @@
     <ClInclude Include="Home_appliances.h" />
     <ClInclude Include="Hoover.h" />
     <ClInclude Include="Kettle.h" />
+    <ClInclude Include="Pool.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Fridge.cpp" />
-    <ClCompile Include="Home_appliances.cpp" />
     <ClCompile Include="Hoover.cpp" />
     <ClCompile Include="Kettle.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Pool.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

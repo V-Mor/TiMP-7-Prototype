@@ -7,5 +7,5 @@ Home_appliances * Hoover::clone()
 
 void Hoover::use()
 {
-	////
+	cout << "пропылесосил комнату\n";
 }

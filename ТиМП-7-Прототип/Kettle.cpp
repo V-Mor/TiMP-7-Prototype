@@ -7,5 +7,5 @@ Home_appliances * Kettle::clone()
 
 void Kettle::use()
 {
-	////
+	cout << "Согрел воду\n";
 }
